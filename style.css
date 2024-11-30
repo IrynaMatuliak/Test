@@ -57,22 +57,23 @@ html, body {
 .controls {
     margin-bottom: 20px;
     display: flex;
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
 }
 
-    .controls button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+.controls button {
+    padding: 10px 20px;
+    background-color: #ADD8E6;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-        .controls button:hover {
-            background-color: #0056b3;
-        }
+.controls button:hover {
+    background-color: #87CEEB;
+}
 
 .block1 {
     grid-column: 1 / 4;
@@ -103,14 +104,14 @@ html, body {
     overflow: auto;
 }
 
-    .block3 p {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
+.block3 p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
-    .block3 ol, .block3 ul {
-        margin-left: 40px;
-    }
+.block3 ol, .block3 ul {
+    margin-left: 40px;
+}
 
 .block4 {
     grid-column: 3 / 4;
@@ -127,16 +128,16 @@ html, body {
     align-items: center;
 }
 
-    .block4 ul {
-        list-style-type: disc;
-        padding-left: 20px;
-        text-align: left;
-    }
+.block4 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
 
-    .block4 a {
-        color: black;
-        text-decoration: none;
-    }
+.block4 a {
+    color: black;
+    text-decoration: none;
+}
 
 .block5 {
     grid-column: 1 / 2;
